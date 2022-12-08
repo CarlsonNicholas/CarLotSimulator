@@ -10,6 +10,7 @@ namespace CarLotSimulator
 {
     internal class Car
     {
+        
         public Car()
         {
         }
