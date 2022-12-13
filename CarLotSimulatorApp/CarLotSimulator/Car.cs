@@ -13,13 +13,15 @@ namespace CarLotSimulator
         
         public Car()
         {
+            CarLot.numberOfCars++;
         }
         public string Make { get; set; }
         public string Model { get; set; }
         public string EngineNoise { get; set; }
         public string HonkNoise { get; set; }
         public string IsDriveable { get; set; }
-
+       
+        
         public int Year;
 
         public void MakeEngineNoise()
